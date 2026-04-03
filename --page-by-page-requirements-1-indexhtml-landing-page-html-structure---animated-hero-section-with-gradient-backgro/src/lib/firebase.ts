@@ -3,12 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "demo-api-key",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "demo.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "demo-project",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "demo.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "123456789",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:123456789:web:abc123"
+  apiKey: "AIzaSyBhSg8Z0mOxUISGY7Bf6Uw-zoWg6A50f_c",
+  authDomain: "medical-tracker-579a5.firebaseapp.com",
+  projectId: "medical-tracker-579a5",
+  storageBucket: "medical-tracker-579a5.firebasestorage.app",
+  messagingSenderId: "841507530920",
+  appId: "1:841507530920:web:fe60f9dfa2fc1c2cbc7a9d",
+  measurementId: "G-1H2KDGQHYF"
 };
 
 const app = initializeApp(firebaseConfig);
